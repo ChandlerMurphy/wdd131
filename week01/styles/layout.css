@@ -67,3 +67,8 @@ h1 {
     grid-column: 1 / 2;
     font-size: small;
 }
+
+img {
+    color: white;
+    grid-column: 2 / 3;
+}
