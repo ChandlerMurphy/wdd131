@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="styles/base.css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Chandler Murphy</title>
     <meta name="description" content="Chandler Murphy WDD 131 - Dynamic Web Fundamentals Homepage. This is the landing index page for my semesters website project work and week01 assingment.">
     <meta name="author" content="Chandler Murphy">
-    <link href="styles/base.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - <span id="yellow-name">Chandler Murphy</span></h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span id="yellowName">Chandler Murphy</span></h1>
         <nav>
             <ul class="navigation">
                 <li><a href="https://www.linkedin.com/in/chandler-murphy/" title="LinkedIn">LinkedIn</a></li>
@@ -21,19 +22,17 @@
         </nav>
     </header>
     <main>
-        <section id="left-card" class="card">
-            <h3 id="about-me-title">About Me</h3>
-            <p id="me-para">
-                Hi! My name is Chandler. I was born in Taylorsville Utah, but moved to Mt Pleasant Utah at a relatively young age. I have now been married to my beautiful wife for nearly a near now and live in Ephraim Utah. I currently work as a Patient Benefit Specialist for United Energy Workers Healthcare but hope to become a more adept Software Engineeer. I love my family, I love spending time outdoors in the woods, and I love increasing my web development skills. 
-            </p>
-            <img id="profile-pic" src="images/chan_profile.jpeg" alt="Chandler Profile Image">
-            <h3 id="residence-title">Ephraim, Utah, United States of America</h2>
-            <p id="residence-title-underline">_______________________________________________________________________________________</p>
-            <img id="us-flag" src="images/usa_flag.jpeg" alt="USA Flag">
-            <p id="flag-text">Official USA Flag</p>
-            <p id="residence-para">Ephraim Utah is home to many lifelong residents as well as many move-ins, like me, here for further educaton at Snow College. Outdoor recreation is a popular activity due to the college campus within city limits as well as several mountain canyons to the east of Ephraim and the surrounding towns. For many Ephraim is a quaint, quiet little town. The populice is friendly and extremely welcoming to any wishing to call this place their home.</p>
+        <section id="leftCard" class="card">
+            <h3 id="aboutMeTitle">About Me</h3>
+            <p id="mePara">Hi! My name is Chandler. I was born in Taylorsville Utah, but moved to Mt Pleasant Utah at a relatively young age. I have now been married to my beautiful wife for nearly a near now and live in Ephraim Utah. I currently work as a Patient Benefit Specialist for United Energy Workers Healthcare but hope to become a more adept Software Engineeer. I love my family, I love spending time outdoors in the woods, and I love increasing my web development skills.</p>
+            <img id="profilePic" src="images/chan_profile.jpeg" alt="Chandler Profile Image">
+            <h3 id="residenceTitle">Ephraim, Utah, United States of America</h3>
+            <p id="residenceTitleUnderline">_______________________________________________________________________________________</p>
+            <img id="usFlag" src="images/usa_flag.jpeg" alt="USA Flag">
+            <p id="flagText">Official USA Flag</p>
+            <p id="residencePara">Ephraim Utah is home to many lifelong residents as well as many move-ins, like me, here for further educaton at Snow College. Outdoor recreation is a popular activity due to the college campus within city limits as well as several mountain canyons to the east of Ephraim and the surrounding towns. For many Ephraim is a quaint, quiet little town. The populice is friendly and extremely welcoming to any wishing to call this place their home.</p>
         </section>
-        <section id="right-card" class="card">
+        <section id="rightCard" class="card">
             <h3>Web Dev Resources</h3>
             <div>
                 <ul>
@@ -47,12 +46,8 @@
         </section>
     </main>
     <footer>
-        <p>
-            <span id="currentyear"></span>
-            <p>Chandler Murphy</p>
-            <p>Utah</p>
-        </p>
-        <p id-="lastModified"></p>
+        <p>©<span id="currentyear"></span> Chandler Murphy - Utah</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
