@@ -135,8 +135,7 @@ main {
     grid-column: 1 / 4;
     background-color: white;
     color: black;
-    /* text-decoration: underline;
-    text-underline-offset: 0.5em; */
+    text-align: center;
 }
 
 #residenceTitleUnderline {
