@@ -127,7 +127,6 @@ main {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
     max-height: 200px;
-    max-width: auto;
     margin: auto;
 }
 
@@ -153,7 +152,7 @@ main {
     grid-column: 1 / 2;    
     margin: auto;
     max-width: 200px;
-    max-height: auto;
+    max-height: 104px;
 }
 
 #flagText {
