@@ -6,6 +6,21 @@
 
 }
 
+#hamburger {
+    border: none;
+    background: none;
+    font-size: larger;
+    color: white;
+}
+
+#hamburger::before {
+    content: "☰";
+}
+
+#hamburger.open::before {
+    content: "X";
+}
+
 #nav {
     display: flex;
     flex-direction: column;
@@ -24,6 +39,14 @@
 }
 
 ul {
+    display: none;
+    margin: auto;
+    padding-top: 10px;
+    padding: 0;
+}
+
+.open-ul {
+    display: block;
     margin: auto;
     padding-top: 10px;
     padding: 0;
@@ -61,9 +84,8 @@ main {
     grid-template: 1fr / 1fr;
 }
 
-
-
 h2 {
+    padding: 10px;
     margin: auto;
     text-align: center;
 }
@@ -74,4 +96,5 @@ footer {
     font-family: Archivo, Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
+    margin: 0;
 }

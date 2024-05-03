@@ -6,4 +6,9 @@ const lastModified = document.querySelector('#lastModified');
 lastModified.innerHTML = (document.lastModified);
 
 const hamButton = document.querySelector("#hamburger");
-hamButton.addEventListener("click", ()=>{})
+const ul = document.querySelector("ul");
+
+hamButton.addEventListener("click", () => {
+    ul.classList.toggle("open-ul");
+    hamButton.classList.toggle("open");
+});
