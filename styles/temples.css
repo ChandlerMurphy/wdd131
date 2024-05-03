@@ -32,6 +32,10 @@
     color: white;
 }
 
+nav:hover {
+    cursor: pointer;
+}
+
 #nav-header {
     display: flex;
     flex-direction: row;
