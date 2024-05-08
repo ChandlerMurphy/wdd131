@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Chandler Murphy Country Page</title>
+    <meta name="description" content="Country website project featuring media queries, various images based on view port, and dynamic JS.">
+    <meta name="author" content="Chandler Murphy">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Utah</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="/images/utah-landscape.jpg" media="">
+            <img src="" alt="image place holder text" width="" height="">
+        </picture>
+        <section id="data-card">
+            <h2>Data</h2>
+            <table id="data-table">
+                <tbody>
+                    <tr>
+                        <td class="table-title">Area: </td>
+                        <td>84,899 mi²</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Population: </td>
+                        <td>3.381 million</td>
+                    </tr>
+                        <td class="table-title">Capital: </td>
+                        <td>Salt Lake City</td>
+                    <tr>
+                        <td class="table-title">Languages: </td>
+                        <td>English, Spanish, Chinese</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Currency: </td>
+                        <td>US Dollar</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Time Zone: </td>
+                        <td>GMT-6</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Calling Code: </td>
+                        <td>385, 435, and 801</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Internet TLD: </td>
+                        <td>.gov, .edu, .mil</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="weather-card">
+            <h2>Weather</h2>
+            <table id="weather-table">
+                <tr>
+                    <td class="table-title">Temperature: </td>
+                    <td>64°F</td>
+                </tr>
+                <tr>
+                    <td class="table-title">Conditions: </td>
+                    <td>Partly Cloudy</td>
+                </tr>
+                <tr>
+                    <td class="table-title">Wind: </td>
+                    <td>19.71 mph</td>
+                </tr>
+                <tr>
+                    <td class="table-title">Wind Chill: </td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Chandler Murphy - Utah</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
