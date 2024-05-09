@@ -16,8 +16,9 @@
     </header>
     <main>
         <picture>
-            <source srcset="/images/utah-landscape.jpg" media="">
-            <img src="" alt="image place holder text" width="" height="">
+            <source srcset="/images/utah-landscape.webp" media="min-width: 1044px">
+            <source srcset="/images/utah-landscape-small.webp" media="min-width: 750">
+            <img src="images/utah-arch.webp" alt="Utah Dessert Landscape" width="500">
         </picture>
         <section id="data-card">
             <h2>Data</h2>
@@ -57,7 +58,8 @@
             </table>
         </section>
         <section id="weather-card">
-            <h2>Weather</h2>
+            <h2>Weather 🌤️</h2>
+            <p id="weather-icon"></p>
             <table id="weather-table">
                 <tr>
                     <td class="table-title">Temperature: </td>
