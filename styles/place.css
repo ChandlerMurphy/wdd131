@@ -13,7 +13,7 @@ header {
     margin: 0 auto;
     text-align: center;
     color: white;
-    background-color: #507B99;
+    background-color: #235c85;
     padding: 1rem;
     max-width: 100%;
     border-bottom: solid #B3DEC1 5px;
@@ -70,7 +70,7 @@ td:last-child {
 }
 
 footer {
-    background-color: #507B99;
+    background-color: #235c85;
     color: white;
     text-align: center;
     margin: 0 auto;
