@@ -11,26 +11,10 @@
         border-bottom: none;
     }
 
-    main {
-        position: relative;
-    }
-
-    #data-div {
-        position: absolute;
-        top: 3vh;
-        left: 1rem;
-        width: 100%;
-    }
-
-    #weather-div {
-        position: absolute;
-        bottom: 30vh;
-        right: -55vw;
-        width: 100%;
-    }
-
     #data-card {
         position: absolute;
+        top: 3vh;
+        left: 3vw;
         border-top: none;
         font-size: smaller;
         background-color: #F1F1F1;
@@ -40,11 +24,26 @@
 
     #weather-card {
         position: absolute;
+        bottom: 3vh;
+        right: 3vw;
         border-top: none;
         font-size: smaller;
         background-color: #F1F1F1;
         opacity: 0.8;
     }
 
+    #data-card h2, 
+    #weather-card h2 {
+        padding: 10px;
+        position: relative;
+        left: -50px;
+        text-align: left;
+        background-color: #B3DEC1;
+        opacity: 1;
+        width: 8rem;
+    }
 
+    #data-card h2 {
+        left: -60px;
+    }
 }

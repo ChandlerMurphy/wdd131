@@ -5,6 +5,10 @@
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+main {
+    position: relative;
+}
+
 header {
     margin: 0 auto;
     text-align: center;
