@@ -3,7 +3,7 @@
         display: none;
     }
 
-    #weather-card h2::before {
+    #weather-card h2::after {
         content: "Weather ⛅️";
     }
 
@@ -38,7 +38,7 @@
         position: relative;
         left: -50px;
         text-align: left;
-        background-color: #B3DEC1;
+        background-color: var(--light-green);
         opacity: 1;
         width: 8rem;
     }
