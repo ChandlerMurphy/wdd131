@@ -1,0 +1,15 @@
+table {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+/* tr:nth-child(odd) {
+    background-color: skyblue;
+} */
+
+
+tr:odd-rows {
+    background-color: skyblue;
+}
