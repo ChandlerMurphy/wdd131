@@ -117,7 +117,9 @@ main {
 
 figure {
     margin: -1rem;
-    color: white;
+    color: black;
+    position: absolute;
+    left: -5rem;
 }
 
 /* Main Body ^^^ */
