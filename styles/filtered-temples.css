@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 * {
     margin: 0;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Nav Bar vvv */
@@ -98,6 +96,8 @@ main {
     background-color: #EAE9EC;
     border: 1px solid lightgray;
     padding: 1rem;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #temple-card h2 {
@@ -120,7 +120,7 @@ main {
 footer {
     background-color: #104D71;
     color: white;
-    font-family: Archivo, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
     margin: 0;
