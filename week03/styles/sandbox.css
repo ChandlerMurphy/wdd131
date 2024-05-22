@@ -13,3 +13,8 @@ table {
 tr:odd-rows {
     background-color: skyblue;
 }
+
+input[type=text] {background-color: #efac3e;}
+/* input {background-color: #efac3e;} */
+/* input[name=text] {background-color: #efac3e;} */
+/* text {background-color: #efac3e;} */
