@@ -67,3 +67,17 @@ p {
 #typographyHeading {
     font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
 }
+
+.wireframes {
+    margin: 3rem auto;
+}
+
+#largeWireframe {
+    width: 40%;
+    height: auto;
+}
+
+#smallWireframe {
+    width: 15%;
+    height: auto;
+}
