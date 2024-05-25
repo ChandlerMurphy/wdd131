@@ -6,11 +6,68 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Chandler Murphy Product Review Form</title>
     <meta name="description" content="This is a standard HMTL web page with an HTMl form that upon completion takes the user to a completion screen.">
     <meta name="author" content="Chandler Murphy">
-    <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/temples-large.css">
-    <script src="scripts/temples.js" defer></script>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.hmtl" id="reviewForm">
+            <fieldset>
+
+                <label>Product Name
+                    <select name="productName" id="productName" required>
+                        <option value="" disabled selected>Select a Product &#9662;</option>
+                    </select>
+                </label>
+
+                <div id="overallRating">Overall Rating</div>
+                <div id="radioButtons">
+                    <div class="ratingButton">
+                        <label>☆</label>
+                        <input type="radio" name="starRating" value="oneStar" required>
+                    </div>
+                    <div class="ratingButton">
+                        <label>☆☆</label>
+                        <input type="radio" name="starRating" value="twoStar" required>
+                    </div>
+                    <div class="ratingButton">
+                        <label>☆☆☆</label>
+                        <input type="radio" name="starRating" value="threeStar" required>
+                    </div>
+                    <div class="ratingButton">
+                        <label>☆☆☆☆</label>
+                        <input type="radio" name="starRating" value="fourStar" required>
+                    </div>
+                    <div class="ratingButton">
+                        <label>☆☆☆☆☆</label>
+                        <input type="radio" name="starRating" value="fiveStar" required>
+                    </div class="ratingButton">
+                </div>
+
+                <label id="installLabel">Date of Installation <input type="date" name="installDate" id="installDate" required></label>
+
+                <div id="featuresLabel">Which features did you find useful in the product?<br><i>(Check all that apply)</i></div>
+                <label><input type="checkbox" name="durability" value="yes" class="usefulFeatures">  Durability</label>
+                <label><input type="checkbox" name="easeOfUse" value="yes" class="usefulFeatures">  Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes" class="usefulFeatures">  Performance</label>
+                <label><input type="checkbox" name="design" value="yes" class="usefulFeatures">  Design</label>
+
+                <div id="reviewLabel">Written Review <span class="blue">(Optional)</span></div>
+                <label><textarea id="writtenReview" name="writtenReview" rows="6"></textarea></label>
+
+                <label id="nameLabel">Your Name <span class="blue">(Optional)</span><input type="text" id="name" name="userName"></label>
+
+                <input id="postReview" type="submit" value="Post Review">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Chandler Murphy - Utah</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
