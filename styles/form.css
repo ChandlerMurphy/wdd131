@@ -140,3 +140,16 @@ footer {
     color: #0707a2;
     font-size: smaller;
 }
+
+/* review.html */
+
+#postReviewHeading {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+main p {
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 5rem;
+}
