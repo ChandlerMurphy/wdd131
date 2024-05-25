@@ -91,6 +91,10 @@ header {
     margin: .5rem 0;
 }
 
+#bottomCheckbox {
+    margin-bottom: 2.5rem;
+}
+
 #reviewLabel {
     margin-top: 2rem;
     margin-bottom: .5rem;
@@ -98,7 +102,9 @@ header {
 
 #writtenReview {
     width: 100%;
-    border: none;
+    border: solid 1px #999;
+    border-radius: 6px;
+    margin-top: .5rem;
 }
 
 #nameLabel {
