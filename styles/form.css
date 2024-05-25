@@ -125,6 +125,7 @@ header {
     border-radius: 6px;
     font-size: large;
     font-weight: bold;
+    appearance: none;
 }
 
 footer {
