@@ -164,3 +164,151 @@ footer {
     padding: 1rem 0;
     border-top: 8px solid #6B4B3E;
 }
+
+/* Home Page ^^^^ */
+/* Form Suggestion Page vvvv */
+
+form h1 {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+}
+
+#reviewForm {
+    max-width: 500px;
+}
+
+#reviewForm fieldset {
+    margin: 1rem .5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: #F5F5F5;
+}
+
+#reviewForm label {
+    display: block;
+}
+
+#reviewForm select {
+    background-color: white;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: 17px;
+    color: #555;
+    width: 100%;
+    appearance: none;
+    margin: .5rem 0;
+}
+
+#overallRating {
+    margin-top: 2.5rem;
+}
+
+#radioButtons {
+    display: flex;
+    margin: .2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ratingButton {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+#installLabel {
+    margin-top: 2.5rem;
+    max-width: 90%;
+}
+
+#installDate {
+    display: block;
+    background-color: white;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: 17px;
+    color: #555;
+    width: 100%;
+    appearance: none;
+    margin: .5rem 0;
+}
+
+#websiteLabel {
+    margin-top: 2.5rem;
+}
+
+#reviewLabel {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+#suggestionLabel {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.writtenReview {
+    width: 100%;
+    border: solid 1px #999;
+    border-radius: 6px;
+    margin-top: .5rem;
+}
+
+#nameLabel {
+    margin-top: 2.5rem;
+}
+
+#name {
+    display: block;
+    background-color: white;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: 17px;
+    color: #555;
+    width: 90%;
+    appearance: none;
+    margin: .5rem 0;
+}
+
+#postSuggestion {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 18px;
+    border: solid 1px #999;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: bold;
+    appearance: none;
+}
+
+.blue {
+    color: #0707a2;
+    font-size: smaller;
+}
+
+/* review.html */
+
+#postReviewHeading {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+main p {
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 5rem;
+}
+
+/* Form Suggestion Page ^^^^ */
+/* Form Result Page vvvv */
+
+#formResultMain h1 {
+    text-align: center;
+}

@@ -7,6 +7,7 @@
     <meta name="description" content="Dungeons and Dragons requires a bit of math, dice rolling, and creativity. I want to employ a site to aid in several of these elements. This website will help with those several aspects for public use.">
     <meta name="author" content="Chandler Murphy">
     <link rel="stylesheet" href="styles/dragon.css">
+    <link rel="stylesheet" href="styles/dragon-large.css">
     <script src="scripts/dragon.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,15 +23,15 @@
             <ul>
                 <li><a href="dragon.html">Home</a></li>
                 <li><a href="dice.html">Dice Roller</a></li>
-                <li><a href="form.html">Suggeston Form</a></li>
+                <li class="active"><a href="form.html">Suggeston Form</a></li>
                 <li><a href="siteplan.html">Site Plan</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="formResultMain">
         <h1>Website Suggestion/Review Complete</h1>
         <h2 id="postReviewHeading">Thank you for providing a suggestion for my website!</h2>
-        <p><span>Number of Website Suggestions given: </span><span id="posts"></span></p>
+        <p><span>Number of Website Reviews given: </span><span id="posts"></span></p>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> Chandler Murphy - Utah</p>

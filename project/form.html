@@ -28,12 +28,14 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="form-main">
         <form method="get" action="form-result.html" id="reviewForm">
 
             <h1>Submit a Suggestion for the Website</h1>
 
             <fieldset>
+
+                <label id="installLabel">Date of Website Review <input type="date" name="installDate" id="installDate" required></label>
 
                 <div id="overallRating">Overall Website Rating</div>
                 <div id="radioButtons">
@@ -44,15 +46,19 @@
                     <label><input type="radio" name="starRating" value="fiveStar" class="ratingButton" required>☆☆☆☆☆</label> 
                 </div>
 
-                <label id="installLabel">Date of Website Review <input type="date" name="installDate" id="installDate" required></label>
+                <label id="websiteLabel">Favorite Website Feature <span class="blue">(Optional)</span>
+                    <select name="websitefeature" id="websiteFeature">
+                        <option value="" disabled selected>Select a Product &#9662;</option>
+                    </select>
+                </label>
 
-                <label><span id="reviewLabel">Written Review <span class="blue">(Optional)</span></span><textarea id="writtenReview" name="writtenReview" rows="6"></textarea></label>
+                <label id="reviewLabel"><span>Written Review <span class="blue">(Optional)</span></span><textarea class="writtenReview" name="writtenReview" rows="6"></textarea></label>
 
-                <label><span id="reviewLabel">Suggestions for this website <span class="blue"></span></span><textarea id="writtenReview" name="writtenReview" rows="6" required></textarea></label>
+                <label id="suggestionLabel"><span>Suggestions for this website <span class="blue"></span></span><textarea class="writtenReview" name="writtenReview" rows="6" required></textarea></label>
 
                 <label id="nameLabel">Your Name <span class="blue">(Optional)</span><input type="text" id="name" name="userName"></label>
 
-                <input id="postSuggestion" type="submit" value="Post Suggestion">
+                <input id="postSuggestion" type="submit" value="Send Website Suggestion">
 
             </fieldset>
         </form>
