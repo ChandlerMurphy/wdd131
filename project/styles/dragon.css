@@ -312,3 +312,39 @@ main p {
 #formResultMain h1 {
     text-align: center;
 }
+
+/* Form Result Page ^^^^ */
+/* Dice Roller Page vvvv */
+
+#dice-cards {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#dice-header {
+    padding: 2rem 10px;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.dice-roller {
+    width: 250px;
+    margin: 2rem auto;
+    background-color: lightgray;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+.dice-roller button {
+    margin: 1rem;
+    padding: 20px 50px;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+}
