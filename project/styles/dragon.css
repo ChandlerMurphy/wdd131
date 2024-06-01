@@ -175,6 +175,7 @@ form h1 {
 
 form {
     margin: auto;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
 }
 
 #reviewForm {
@@ -293,7 +294,11 @@ form {
     font-size: smaller;
 }
 
-/* review.html */
+#form-main h1 {
+    font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
+}
+
+/* form-result.html */
 
 #postReviewHeading {
     text-align: center;
@@ -311,6 +316,11 @@ main p {
 
 #formResultMain h1 {
     text-align: center;
+    font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
+}
+
+#formResultMain p {
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
 }
 
 /* Form Result Page ^^^^ */
@@ -332,6 +342,7 @@ main p {
     padding: 2rem 10px;
     padding-top: 4rem;
     text-align: center;
+    font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
 }
 
 .dice-roller {

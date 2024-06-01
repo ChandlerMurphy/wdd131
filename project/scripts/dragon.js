@@ -5,6 +5,9 @@ year.innerHTML = today.getFullYear();
 const lastModified = document.querySelector('#lastModified');
 lastModified.innerHTML = (document.lastModified);
 
+// Footer pieces ^^^^
+// Hamburger Menu vvvv
+
 const hamButton = document.querySelector("#hamburger");
 const ul = document.querySelector("ul");
 
