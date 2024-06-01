@@ -81,8 +81,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url("/project/images/misty-forest.webp");
-    background-size: cover;
+    overflow: hidden;
     margin: 0px;
     display: flex;
     width: 100%;
@@ -92,10 +91,30 @@ a:hover {
 
 .hero h2 {
     text-align: center;
-    background-color: rgba(48, 84, 63, 0.5);
     padding: 1rem;
     border-radius: 6px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1; 
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+    z-index: 0;
+}
+
+.hero h2,
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .main-section {
