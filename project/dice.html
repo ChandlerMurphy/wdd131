@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/dragon.css">
     <link rel="stylesheet" href="styles/dragon-large.css">
     <script src="scripts/dragon.js" defer></script>
+    <script src="scripts/dice.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -34,37 +35,44 @@
         <div id="dice-cards">
             <div class="dice-roller" id="d4">
                 <img src="images/d4.svg" alt="four sided dice">
-                <button class="dice-button">Roll a d4</button>
+                <span id="d4result"></span>
+                <button class="dice-button" id="d4button">Roll a d4</button>
             </div>
             
             <div class="dice-roller" id="d6">
                 <img src="images/d6.svg" alt="six sided dice">
-                <button class="dice-button">Roll a d6</button>
+                <span id="d6result"></span>
+                <button class="dice-button" id="d6button">Roll a d6</button>
             </div>
             
             <div class="dice-roller" id="d8">
                 <img src="images/d8.svg" alt="eight sided dice">
-                <button class="dice-button">Roll a d8</button>
+                <span id="d8result"></span>
+                <button class="dice-button" id="d8button">Roll a d8</button>
             </div>
             
             <div class="dice-roller" id="d10">
                 <img src="images/d10.svg" alt="ten sided dice" loading="lazy">
-                <button class="dice-button">Roll a d10</button>
+                <span id="d10result"></span>
+                <button class="dice-button" id="d10button">Roll a d10</button>
             </div>
             
             <div class="dice-roller" id="d12">
                 <img src="images/d12.svg" alt="twelve sided dice" loading="lazy">
-                <button class="dice-button">Roll a d12</button>
+                <span id="d12result"></span>
+                <button class="dice-button" id="d12button">Roll a d12</button>
             </div>
             
             <div class="dice-roller" id="d20">
                 <img src="images/d20.svg" alt="twenty sided dice" loading="lazy">
-                <button class="dice-button">Roll a d20</button>
+                <span id="d20result"></span>
+                <button class="dice-button" id="d20button">Roll a d20</button>
             </div>
             
             <div class="dice-roller" id="d100">
                 <img src="images/d100.svg" alt="one-hundred sided dice" loading="lazy">
-                <button class="dice-button">Roll a d100</button>
+                <span id="d100result"></span>
+                <button class="dice-button" id="d100button">Roll a d100</button>
             </div>
         </div>
         

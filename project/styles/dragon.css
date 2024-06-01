@@ -351,6 +351,10 @@ main p {
     background-color: lightgray;
     padding: 2rem;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .dice-roller button {
@@ -358,4 +362,17 @@ main p {
     padding: 20px 50px;
     font-family: "Merriweather", Arial, Helvetica, sans-serif;
     border-radius: 6px;
+}
+
+#dice-cards span {
+    background-color: #efefef;
+    border: 2px solid black;
+    padding: 20px 50px;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+    align-self: center;
+    border-radius: 6px;
+}
+
+#dice-cards img {
+    margin-bottom: 2rem;
 }
