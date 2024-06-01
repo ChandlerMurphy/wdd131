@@ -298,11 +298,13 @@ form {
     font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
 }
 
-/* form-result.html */
+/* Form Suggestion Page vvvv */
+
+
 
 #postReviewHeading {
     text-align: center;
-    margin-top: 5rem;
+    margin: 3rem 0;
 }
 
 main p {
@@ -314,9 +316,10 @@ main p {
 /* Form Suggestion Page ^^^^ */
 /* Form Result Page vvvv */
 
-#formResultMain h1 {
+#formResultMain h2 {
     text-align: center;
     font-family: "MedievalSharp", Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
 }
 
 #formResultMain p {
